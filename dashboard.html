@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geomitra 2025 Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <li><a href="profile.html">Profile</a></li>
+
+</head>
+<body>
+    <!-- Top Orange Header -->
+    <div class="header">
+    
+        Welcome to Geomitra 2025
+       
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#" onclick="redirectToProfile()">Profile</a></li> <!-- Updated Logout -->
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#" onclick="redirectToLogin()">Logout</a></li> <!-- Updated Logout -->
+           
+        </ul>
+    </div>
+
+    <!-- Menu Button -->
+    <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+
+    <!-- Main Content -->
+    <div class="content">
+        <p>Welcome to your dashboard. Manage your settings and explore features.</p>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
